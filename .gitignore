@@ -1,0 +1,14 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Carpetas que no quieras subir (si las usás)
+node_modules/
+dist/

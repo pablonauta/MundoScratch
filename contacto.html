@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="scratch_style_favicon.png" type="image/png">
+</head>
+<body>
+
+  <!-- Encabezado principal -->
+  <header id="encabezado">
+    <h1>Contacto</h1>
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav id="navegacion">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="biografia.html">Biografía de Scratch</a></li>
+      <li><a href="galeria.html">Galería</a></li>
+      <li><a href="contacto.html" class="activo">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Sección de contacto -->
+    <section class="seccion" id="contacto">
+      <h2>¿Por qué contactarme?</h2>
+      <p>Si te interesa el mundo de Scratch, querés mostrar tus proyectos o tenés ideas para colaborar, escribime. Me encanta conocer nuevas propuestas creativas.</p>
+
+      <!-- Imagen personal -->
+      <img src="yomismo.png" alt="Foto de Pablo, entusiasta de Scratch y creador de esta página" class="foto-contacto">
+
+      <!-- Formulario de contacto -->
+      <form action="https://formspree.io/f/xzzglzly" method="POST" class="formulario-contacto">
+        <div class="campo">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+      
+        <div class="campo">
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+        </div>
+      
+        <div class="campo">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        </div>
+      
+        <button type="submit">Enviar</button>
+      </form>
+     
+
+      <!-- Otros medios de contacto -->
+      <h3>Otras formas de contactarme</h3>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:pablonauta@gmail.com">pablonauta@gmail.com</a></li>
+        <li><strong>WhatsApp:</strong> <a href="https://wa.me/59898422523" target="_blank">Enviar mensaje</a></li>
+        <li><strong>Perfil en Scratch:</strong> <a href="https://scratch.mit.edu/users/pablonauta/" target="_blank">scratch.mit.edu/pablonauta</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer id="pie">
+    <p>© 2025 - Gracias por visitar mi mundo Scratch ♥</p>
+  </footer>
+
+</body>
+</html>
