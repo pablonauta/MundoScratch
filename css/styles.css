@@ -262,7 +262,7 @@ footer {
   left: 0;
   width: 80px;
   height: 80px;
-  background-image: url('spritesheet-gato.png');
+  background-image: url('../imagenes/spritesheet-gato.png');
   background-repeat: no-repeat;
   background-size: 320px 80px;
   z-index: 10;
