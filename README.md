@@ -23,6 +23,6 @@ El uso de este archivo está permitido únicamente bajo los términos de la GPLv
 ##  Sitio publicado
 
 Este sitio está disponible en:  
- [https://pablonauta.github.io/galeria/](https://pablonauta.github.io/galeria/)
+ [https://pablonauta.github.io/galeria/](https://pablonauta.github.io/MundoScratch/)
 
 Este sitio embebe proyectos de Scratch. Algunos navegadores pueden mostrar advertencias relacionadas con audio bloqueado por políticas de reproducción automática. No afecta la funcionalidad del sitio.
