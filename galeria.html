@@ -8,14 +8,6 @@
   <link rel="icon" href="imagenes/scratch_style_favicon.png" type="image/png">
 </head>
 <body>
-  <script>
-  document.querySelectorAll('img.imagen-proyecto').forEach(img => {
-    const wrapper = document.createElement('div');
-    wrapper.className = 'contenedor-imagen';
-    img.parentNode.insertBefore(wrapper, img);
-    wrapper.appendChild(img);
-  });
-</script>
 
   <!-- Encabezado principal del sitio -->
   <header id="encabezado">
@@ -135,5 +127,14 @@
     <p>© 2025 - Hecho con amor, desafíos y bloques ♥</p>
   </footer>
 
+
+  <script>
+  document.querySelectorAll('img.imagen-proyecto').forEach(img => {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'contenedor-imagen';
+    img.parentNode.insertBefore(wrapper, img);
+    wrapper.appendChild(img);
+  });
+</script>
 </body>
 </html>
