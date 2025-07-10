@@ -242,6 +242,14 @@ footer {
   box-sizing: border-box;
 }
 
+@media (min-width: 701px) {
+  .proyecto,
+  .desafio {
+    max-width: 400px;
+    width: 100%;
+  }
+}
+
 .audio-fondo {
   display: block;
   margin: 30px auto;
