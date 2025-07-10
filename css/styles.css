@@ -243,10 +243,12 @@ footer {
 }
 
 @media (min-width: 701px) {
-  .proyecto,
-  .desafio {
-    max-width: 400px;
-    width: 100%;
+  .imagen-proyecto,
+  .desafio img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover;
   }
 }
 
