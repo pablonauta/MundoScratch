@@ -260,6 +260,21 @@ footer {
   }
 }
 
+.contenedor-imagen {
+  aspect-ratio: 4 / 3;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #eee;
+}
+
+.contenedor-imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .audio-fondo {
   display: block;
   margin: 30px auto;
