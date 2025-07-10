@@ -243,12 +243,17 @@ footer {
 }
 
 @media (min-width: 701px) {
-  .imagen-proyecto,
-  .desafio img {
-    max-width: 100%;
-    height: auto;
-    max-height: 250px; 
-    object-fit: cover;
+  .seccion {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .imagen-proyecto {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
   }
 }
 
